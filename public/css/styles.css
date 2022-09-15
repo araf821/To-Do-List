@@ -57,6 +57,7 @@ form.item {
 }
 
 button {
+  margin-top: 0.5rem;
   min-height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -64,7 +65,6 @@ button {
   background-color: #a683e3;
   color: #fff;
   font-size: 30px;
-  padding-bottom: 6px;
   border-width: 0;
 }
 
