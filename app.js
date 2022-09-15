@@ -14,7 +14,7 @@ app.set("view engine", "ejs");
 async function main() {
   // Use connect method to connect to the server
   await mongoose.connect(
-    "mongodb+srv://admin:n3dsu821@cluster0.0ndaeef.mongodb.net/todolistDB"
+    "mongodb+srv://admin:KSOdyNx6NBD2ZPoV@cluster0.0ndaeef.mongodb.net/todolistDB"
   );
 }
 
