@@ -156,6 +156,10 @@ app.post("/delete", (req, res) => {
 
 // This bit of code declares that our application runs on the port localhost:3000
 // That is also our home route.
-app.listen(process.end.PORT || 3000, () => {
+let port = process.env.PORT;
+if(port == null || port == "")
+  port = 3000;
+
+app.listen(port, () => {
   console.log("Server is now up and running!");
 });
